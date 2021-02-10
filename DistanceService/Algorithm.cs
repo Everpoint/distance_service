@@ -48,11 +48,6 @@ namespace DistanceService
                 sinSig = Math.Sqrt(
                     Math.Pow(cosU2 * sinLambda, 2) + Math.Pow((cosU1 * sinU2) - (sinU1 * cosU2 * cosLambda), 2));
 
-                if (sinSig == 0)
-                {
-                    throw new NotImplementedException(); // The points are same or diametral
-                }
-
                 cosSig = (sinU1 * sinU2) + (cosU1 * cosU2 * cosLambda);
                 sig = Math.Atan2(sinSig, cosSig);
 
