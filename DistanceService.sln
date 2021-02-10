@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistanceService", "DistanceService\DistanceService.csproj", "{778F50E5-6975-4DEE-808F-2F3A230E23E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{8842F8BC-0E81-4782-AED1-0C5F0F9F18E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{778F50E5-6975-4DEE-808F-2F3A230E23E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{778F50E5-6975-4DEE-808F-2F3A230E23E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{778F50E5-6975-4DEE-808F-2F3A230E23E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{778F50E5-6975-4DEE-808F-2F3A230E23E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8842F8BC-0E81-4782-AED1-0C5F0F9F18E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8842F8BC-0E81-4782-AED1-0C5F0F9F18E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8842F8BC-0E81-4782-AED1-0C5F0F9F18E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8842F8BC-0E81-4782-AED1-0C5F0F9F18E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
